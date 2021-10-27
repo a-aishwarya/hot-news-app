@@ -1,10 +1,59 @@
+body
+{
+  margin: 0;
+
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card
+{
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  width:20px;
+  height: 377px; 
+  flex-basis:20%;
+  z-index: 10; 
+  border: 1px solid black;
+  flex-grow: 0;
+  padding: 5px;
+
+  
+
+
+  overflow: hidden;
+  z-index: 100;
+  flex-wrap: wrap;
+}
+
+.card:nth-child(3n) {
+  page-break-after: always; /* CSS 2.1 syntax */
+  break-after: always; /* New syntax */
+}
+
+.flex-container
+{
+  flex-wrap: wrap;
+  height: 1200px;
+  width:1400px;
+  display: flex;
+  flex-direction: row;
+  
+  -ms-flex-negative: 0 !important;
+  overflow: hidden;
+  flex-grow: 2;
+  
+  
+}
+#main-heading
+{
+  text-align: center;
+  font-weight: 1000;
+  font-size:60px;
+  color: orange;
+  font-style:inherit;
 }
 
 @media (prefers-reduced-motion: no-preference) {
