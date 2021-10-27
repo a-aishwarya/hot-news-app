@@ -20,7 +20,6 @@ body
   flex-grow: 0;
   padding: 5px;
 
-  
 
 
   overflow: hidden;
@@ -30,7 +29,7 @@ body
 
 .card:nth-child(3n) {
   page-break-after: always; /* CSS 2.1 syntax */
-  break-after: always; /* New syntax */
+  break-after: always;
 }
 
 .flex-container
