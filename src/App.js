@@ -9,8 +9,7 @@ function App() {
     <div>
     <Navbar title="Hot-News"></Navbar>
     <News></News>
-    </div>
-       
+    </div>  
   );
 }
 export default App;
